@@ -1,0 +1,131 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1696256040
+Updated: 2023-10-02 14:14:00
+
+*/
+
+body {
+    background-color: #E3D9D0;
+  }
+  
+
+#header {
+    background-color: #fff; /* Couleur de fond de la barre de header en blanc */
+    color: #333; /* Couleur du texte */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* ... (le reste du CSS reste inchangé) ... */
+  
+    
+  
+  /* Style pour le logo */
+  .logo-brand {
+    display: none; /* Permet au logo d'être aligné horizontalement */
+  }
+  
+  /* Style pour le menu de navigation */
+  #menu {
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Aligner verticalement les éléments du menu au centre */
+  }
+  
+  /* Style pour les liens du menu */
+  #menu ul {
+    list-style: none; /* Supprime les puces de liste */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le rembourrage par défaut */
+  }
+  
+  #menu li {
+    margin-left: 20px; /* Espacement entre les éléments du menu */
+  }
+  
+  #menu a {
+    color: #fff; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime la décoration de lien par défaut */
+    font-weight: bold; /* Met en gras le texte des liens */
+  }
+  
+
+/* Styles pour le logo */
+.custom-logo{
+    width: 200px;
+    height: auto;
+}
+
+/* Styles pour aligner les liens du menu les uns devant les autres */
+.navbar-nav {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime la marge intérieure de la liste */
+}
+
+
+.navbar-nav li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne les uns devant les autres */
+    margin-right: 20px; /* Ajoute un espace entre les éléments (ajustez selon vos besoins) */
+}
+
+.navbar-nav li:last-child {
+    margin-right: 0; /* Supprime la marge à droite du dernier élément */
+}
+/* Style pour la barre de footer en couleur blanche */
+#footer {
+    background-color: #fff; /* Couleur de fond du footer en blanc */
+    color: #333; /* Couleur du texte */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  /* Style pour le contenu du footer, par exemple, les liens de navigation */
+  #footer-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style pour les liens du footer */
+  #footer a {
+    color: #333; /* Couleur du texte des liens du footer */
+    text-decoration: none;
+    margin-right: 10px; /* Espacement entre les liens du footer */
+    font-weight: bold;
+  }
+  
+
+.titre-2{
+    width: 345x;
+    height: auto;
+}
+.energy-drink .canette{
+    position: relative;
+    z-index: 2;
+    z-index: 3;
+}
+.energy-drink .Feuille-1 {
+    position: relative;
+    width: 349.19px;
+    height: 370.08px;
+    top: 175px;
+    left: 268px;
+    transform: rotate(-deg);
+}
+.energy-drink .Feuille-2  {
+    position: relative;
+    width: 349.19px;
+    height: 363.08px;
+    top: 178px;
+    right: 277px;
+    transform: rotate(-deg);
+}
+
