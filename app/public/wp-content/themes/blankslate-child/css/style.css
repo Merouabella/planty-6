@@ -1,0 +1,107 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1696263852
+Updated: 2023-10-02 18:24:12
+
+*/
+
+body {
+    background-color: #e3d9d0;
+}
+#header {
+    color: #333;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo-brand {
+    display: none;
+}
+#menu {
+    display: flex;
+    align-items: center;
+}
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+    margin-left: 20px;
+}
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.custom-logo {
+    height: auto;
+    width: 200px;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+}
+.navbar-nav li {
+    margin-right: 20px;
+    display: inline-block;
+}
+.navbar-nav li:last-child {
+    margin-right: 0;
+}
+#footer {
+    color: #333;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 10px;
+}
+#footer-content {
+    display: flex;
+    align-items: center;
+}
+#footer a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.titre-2 {
+    height: auto;
+    width: 345x;
+}
+.energy-drink .canette {
+    position: relative;
+    z-index: 2;
+    z-index: 3;
+}
+.energy-drink .Feuille-1 {
+    height: 370.08px;
+    position: relative;
+    width: 349.19px;
+    top: 175px;
+    left: 268px;
+    -moz-transform: rotate(-deg);
+    -webkit-transform: rotate(-deg);
+    -o-transform: rotate(-deg);
+    transform: rotate(-deg);
+}
+.energy-drink .Feuille-2 {
+    height: 363.08px;
+    position: relative;
+    width: 349.19px;
+    right: 277px;
+    top: 178px;
+    -moz-transform: rotate(-deg);
+    -webkit-transform: rotate(-deg);
+    -o-transform: rotate(-deg);
+    transform: rotate(-deg);
+}

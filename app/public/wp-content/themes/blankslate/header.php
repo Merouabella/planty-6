@@ -22,7 +22,7 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
 <div id="search"><?php get_search_form(); ?></div>
-</nav>
+</nav>c
 </header>
 <div id="container">
 <main id="content" role="main">
