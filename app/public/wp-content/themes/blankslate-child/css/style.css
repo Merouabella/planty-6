@@ -19,50 +19,67 @@ body {
     display: flex;
     background-color: #fff;
     justify-content: space-between;
-    padding: 10px;
+    
 }
+
+
+  .logo-brand .site-brand {
+    height: 2px;; /* Assurez-vous que la hauteur du logo correspond à la hauteur de l'en-tête */
+  }
+  
+  /* Vous pouvez également ajuster d'autres éléments du header si nécessaire */
+  
 .logo-brand {
-    display: none;
+    float: left; /* Alignement à gauche */
+    margin-right: 440px; /* Marge à droite pour séparer le logo du menu */
 }
-#menu {
+
+.header-bar {
+    background-color: #ffffff; /* Couleur de fond blanche */
+height: 50px;
+}
+
+
+
+/* Aligner le logo vers la droite */
+.elementor-element-5a4d292.header-bar .logo-brand {
+    margin-left: auto;
+}
+
+/* Réduire la hauteur du menu */
+.hfe-nav-menu.hfe-layout-horizontal ul.hfe-nav-menu {
+    height: auto; /* Réglez la hauteur souhaitée ou utilisez "auto" */
     display: flex;
-    align-items: center;
-}
-#menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-#menu li {
-    margin-left: 20px;
+
+/* Style des éléments du menu */
+.hfe-nav-menu.hfe-layout-horizontal ul.hfe-nav-menu li {
+    margin-left: 10px; /* Espacement horizontal entre les éléments du menu */
+    margin-right: 10px;
+    margin-top: -20px;
 }
-#menu a {
-    color: #fff;
+
+/* Style des liens du menu */
+.hfe-nav-menu.hfe-layout-horizontal ul.hfe-nav-menu li a {
     text-decoration: none;
-    font-weight: bold;
+    color: #333; /* Couleur du texte du menu */
 }
-.custom-logo {
-    height: auto;
-    width: 200px;
+
+/* Styler le bouton de menu */
+.hfe-nav-menu__toggle {
+    display: none; /* Masquer le bouton de menu mobile */
 }
-.navbar-nav {
-    list-style: none;
-    padding: 0;
-}
-.navbar-nav li {
-    margin-right: 20px;
-    display: inline-block;
-}
-.navbar-nav li:last-child {
-    margin-right: 0;
-}
-#footer {
+
+.footer-bar {
     color: #333;
     display: flex;
     background-color: #fff;
     justify-content: space-between;
     justify-content: center;
-    padding: 10px;
+    
 }
 #footer-content {
     display: flex;
@@ -105,3 +122,54 @@ body {
     -o-transform: rotate(-deg);
     transform: rotate(-deg);
 }
+
+.les-Gout{
+    width: 800px;
+}
+
+.les-Gout-img{
+    width: 370px;
+    height: 260px;
+}
+
+.les-groupe{
+    background-color: #ffffff; /* Couleur de fond blanche */
+    border-radius: ;
+
+
+}
+.lenergie-des-plantes{
+    background-color: #ffffff
+}
+
+
+
+
+        /* Style pour diviser les formulaires */
+        
+.form-container {
+    display: flex;
+    flex-direction: row; /* Les formulaires sont côte à côte */
+    justify-content: center; /* Centre les formulaires horizontalement */
+    align-items: flex-start; /* Aligne les formulaires en haut */
+}
+
+/* Style pour les formulaires */
+.contact-form {
+    flex: 1; /* Les formulaires occupent une part égale de l'espace disponible */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px; /* Marge autour des formulaires */
+}
+
+/* Style pour la barre de séparation */
+.separator {
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 20px; /* Marge à gauche et à droite de la barre */
+}
+
+    
+    
+
